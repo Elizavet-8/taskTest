@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="index.html"> -->
+	<title>
+		Test Task
+	</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/img/logo.svg"/>
+	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+	<meta name="csrf-token" content="XYZ123">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="header__row">
+			<a class="header-logo logo" href="#main">
+				<img class="header-logo__svg logo__svg" src="assets/img/logo.svg" alt="logo">
+			</a>
+			<div class="header__wrapper">
+				<nav class="header-nav" id="nav">
+					<ul class="header-nav__list">
+						<li class="header-nav__item">
+							<a class="header-nav__link" href="#">
+								Главная
+							</a>
+						</li>
+						<li class="header-nav__item header-nav-dropdown">
+							<a class="header-nav-dropdown__link" href="#">
+								Основное меню
+								<img class="header-nav-dropdown__icon" src="assets/img/icons/drop.svg" alt="drop">
+							</a>
+							<ul class="header-nav-dropdown__menu">
+								<li class="header-nav-dropdown__item"><a href="#">Заказать вёрстку</a></li>
+								<li class="header-nav-dropdown__item"><a href="#">Отправить макет на проверку</a></li>
+								<li class="header-nav-dropdown__item"><a href="#">Хочу работать у вас</a></li>
+								<li class="header-nav-dropdown__item header-nav-dropdown header-nav-dropdown_nested">
+									<a href="#" class="header-nav-dropdown__link header-nav-dropdown__link_nested">
+										Есть предложение по работе с кл...
+										<img class="header-nav-dropdown__icon" src="assets/img/icons/drop.svg"
+												 alt="drop">
+									</a>
+									<ul class="header-nav-dropdown__menu header-nav-dropdown__menu_nested">
+										<li class="header-nav-dropdown__item"><a href="#">У меня есть оффер</a></li>
+										<li class="header-nav-dropdown__item"><a href="#">Сделать партнёром</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="header-nav__item">
+							<a class="header-nav__link" href="#">
+								Наши сервисы
+							</a>
+						</li>
+						<li class="header-nav__item">
+							<a class="header-nav__link" href="#">
+								Контакты
+							</a>
+						</li>
+
+					</ul>
+				</nav>
+			</div>
+			<a href="tel:+13212223333" class="header-link">
+				<img class="header-link__icon" src="assets/img/icons/tel.svg" alt="tel">
+				<span class="header-link__text">+1 (321) 222 - 33 -33</span>
+			</a>
+			<div class="header__burger">
+				<div class="header__burger-line"></div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="main" class="main"></section>
+	</main>
+	<footer id="footer" class="footer">
+	</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+				integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+				crossorigin="anonymous"></script>
+<script src="assets/js/general.js"></script>
+</body>
+</html>
