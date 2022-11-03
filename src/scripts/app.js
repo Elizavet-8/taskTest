@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     //бургер меню
-    $('.header__burger, .overlay').click(function () {
+    $('.header-burger, .overlay').click(function () {
         $('.header').toggleClass('show');
         $('body').toggleClass('overflow');
     });
